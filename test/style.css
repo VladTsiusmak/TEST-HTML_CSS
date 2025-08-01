@@ -133,11 +133,11 @@ nav ul li button img {
 }
 
 /*-------------------Section-1--------------------------*/
-main {
+main{
+    background: #EFF0F3;
     width: 100%;
     display: flex;
     flex-direction: column;
-    background: #EFF0F3;
 }
 .one{
     width: 100%;
@@ -148,12 +148,12 @@ main {
     align-items: center;
 }
 .left{
-    display: flex;
-    flex-direction: column;
     justify-content: flex-start;
-    gap: 30px;
-    width: 664px;
+    flex-direction: column;
+    width: 665px;
     height: 345px;
+    display: flex;
+    gap: 30px;
 }
 .one h1{
     width: 617px;
@@ -166,15 +166,14 @@ main {
     text-transform: capitalize;
 }
 .one p{
-    width: 652px;
     height: 50px;
-    padding-left: 12px;
     color: #9A9494;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     border-left: 3px solid #2B2C34;
+    padding-left: 12px;
 }
 .main-form {
     width: 609px;
@@ -302,9 +301,8 @@ main {
     color: #FFFFFE;
 }
 .card p{
-    width: 90px;
     height: 30px;
-    color: #2B2C34;
+    width: 100px;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -429,6 +427,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: -80px;
 }
 .button-three-section a{
     width: 165px;
